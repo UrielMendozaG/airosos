@@ -1,0 +1,25 @@
+/* Core Styles */
+
+body {
+    margin: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #3CACD8;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    border-left: 18em solid #3CACD8;
+    border-right: 18em solid #3CACD8 ;
+  }
+  
+  
+  h2 {
+    margin: 0;
+    padding: 1em 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 1em 0;
+  }
+  
+ 
