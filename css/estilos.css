@@ -1,40 +1,42 @@
-
 /* estilos generales  */
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /* Mobile First */
 
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.location-text {
+  width: 50%;
+}
+
+.map {
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 875px) {
   .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
   }
-
-  .location-text {
-    width: 50%;
-  }
-
-  .map {
-    width: 100%;
-  }
-
-  .text {
-    text-align: center;
-    
-  }
-
-/* Ipad Second */
-
-
-
-
-
-
-
+}
