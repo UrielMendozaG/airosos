@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="526" height="163.812" viewBox="0 0 526 163.812">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.387" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0ae0f8"/>
+      <stop offset="1" stop-color="#fdfdfd"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(-403 -411)">
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(-300 368)">
+      <text id="Lluvia" transform="translate(810 121)" font-size="81" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Lluvia</tspan></text>
+      <path id="Trazado_1" data-name="Trazado 1" d="M22.836-27.883c3.338,0,22.836,31.248,22.836,43.861A22.836,22.836,0,0,1,0,15.978C0,3.366,19.5-27.883,22.836-27.883Z" transform="translate(1082.327 86.534)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Guadalajara_Jalisco" data-name="Guadalajara Jalisco" transform="translate(403 560.812)" font-size="54" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Guadalajara Jalisco</tspan></text>
+  </g>
+</svg>
