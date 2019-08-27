@@ -5,6 +5,31 @@ body {
   padding: 0;
 }
 
+.mape {
+  position: relative;
+}
+
+.elipse {
+  position: absolute;
+  width: 15%;
+  top: 27%;
+  left: 36%;
+}
+
+.elipse2 {
+  position: absolute;
+  width: 13%;
+  top: 50%;
+  left: 70%;
+}
+
+.elipse3 {
+  position: absolute;
+  width: 10%;
+  top: 70%;
+  left: 20%;
+}
+
 /* Mobile First */
 
 .container {
@@ -26,6 +51,7 @@ body {
 
 .text {
   text-align: center;
+  padding: 5em 0;
 }
 
 /* Responsive */
@@ -38,5 +64,10 @@ body {
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
+  }
+
+  .mape {
+    width: 60%;
+    
   }
 }
