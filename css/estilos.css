@@ -1,5 +1,6 @@
 /* estilos generales  */
 
+
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +10,13 @@ body {
   position: relative;
 }
 
+span {
+  background: rgb(172, 170, 170) !important;
+  opacity: .4;
+  display: none;
+}
+
+/* Demostracion de indicadores de lluvia */
 .elipse {
   position: absolute;
   width: 15%;
@@ -26,6 +34,38 @@ body {
 .elipse3 {
   position: absolute;
   width: 10%;
+  top: 70%;
+  left: 20%;
+}
+
+/* Demostracion de indicadores de calidad del aire */
+
+.elipseGreen {
+  position: absolute;
+  width: 18%;
+  top: 25%;
+  left: 35%;
+}
+
+.elipseRed {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 70%;
+}
+
+.elipseYellow {
+  position: absolute;
+  width: 20%;
+  top: 70%;
+  left: 20%;
+}
+
+/*  Elipse Fuego en la primavera  */
+
+.primavera {
+  position: absolute;
+  width: 12%;
   top: 70%;
   left: 20%;
 }
@@ -68,6 +108,10 @@ body {
 
   .mape {
     width: 60%;
-    
   }
+
+  span {
+    display: inherit;
+  }
+
 }

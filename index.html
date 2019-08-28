@@ -1,27 +1,104 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/estilos.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <section class="text">
-      <img src="./resources/Grupo 4.svg" alt="location" class="location-text">
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
+      integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="container section">
+        <section class="text">
+          <img
+            src="./resources/lluviaText.svg"
+            alt="location"
+            class="location-text"
+          />
+        </section>
 
-    <section class="mape">
-      <img src="./resources/Imagen 5.svg" alt="mapa" class="map">
-      <img src="./resources/Elipse.svg" alt="elipse" class="elipse">
-      <img src="./resources/Elipse.svg" alt="elipse" class="elipse2">
-      <img src="./resources/Elipse.svg" alt="elipse" class="elipse3">
-    </section>
+        <section class="mape">
+          <img src="./resources/mapGDL.svg" alt="mapa" class="map" />
+          <img
+            src="./resources/Elipse.svg"
+            alt="elipse"
+            class="elipse elipse"
+          />
+          <img
+            src="./resources/Elipse.svg"
+            alt="elipse"
+            class="elipse2 elipse"
+          />
+          <img
+            src="./resources/Elipse.svg"
+            alt="elipse"
+            class="elipse3 elipse"
+          />
+        </section>
+      </div>
 
-  </div>
+      <div class="container section">
+        <section class="text">
+          <img
+            src="./resources/textoCalidadAire.svg"
+            alt="location"
+            class="location-text"
+          />
+        </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-  <script src="./js/animation.js"></script>
-</body>
+        <section class="mape">
+          <img src="./resources/mapGDL.svg" alt="mapa" class="map" />
+          <img
+            src="./resources/elipseGreen.svg"
+            alt="elipse"
+            class="elipseGreen elipse"
+            id="elipse"
+          />
+          <img
+            src="./resources/elipseRed.svg"
+            alt="elipse"
+            class="elipseRed elipse"
+          />
+          <img
+            src="./resources/elispeYellow.svg"
+            alt="elipse"
+            class="elipseYellow elipse"
+          />
+        </section>
+      </div>
+
+      <div class="container section">
+        <section class="text">
+          <img
+            src="./resources/textFuego.svg"
+            alt="location"
+            class="location-text"
+          />
+        </section>
+
+        <section class="mape">
+          <img src="./resources/mapaPrimavera.svg" alt="mapa" class="map" />
+          <img
+            src="./resources/elipseRed.svg"
+            alt="elipse"
+            class="elipseRed elipse primavera"
+          />
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+      integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/animation.js"></script>
+  </body>
 </html>
