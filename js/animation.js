@@ -10,7 +10,7 @@ opacity = 0.1;
 scale = 1.2;
 repeat = -1;
 
-TweenMax.to(elipse, 2, { opacity: opacity, scale: scale, repeat: repeat });
+TweenMax.to(elipse, 1.2, { opacity: opacity, scale: scale, repeat: repeat });
 
 //scroll properties
 
@@ -19,7 +19,7 @@ new fullpage("#fullPage", {
   autoScrolling: true,
   controlArrows: true,
   navigation: true,
-  navigationPosition: "left",
+  navigationPosition: "right",
   scrollingSpeed: 800,
 
   //diseño
