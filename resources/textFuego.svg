@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="524" height="220" viewBox="0 0 524 220">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.387" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f80a0a"/>
+      <stop offset="1" stop-color="#fdfdfd"/>
+    </linearGradient>
+  </defs>
+  <g id="textFuego" transform="translate(-402 -411)">
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(-264 369)">
+      <text id="Fuego" transform="translate(765 120)" font-size="81" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Fuego</tspan></text>
+      <path id="Trazado_1" data-name="Trazado 1" d="M22.836-27.883c3.338,0,22.836,31.248,22.836,43.861A22.836,22.836,0,0,1,0,15.978C0,3.366,19.5-27.883,22.836-27.883Z" transform="translate(1050.327 85.534)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Bosque_la_Primavera_" data-name="Bosque la Primavera
+" transform="translate(402 557)" font-size="50" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Bosque la Primavera</tspan><tspan x="0" y="61"></tspan></text>
+  </g>
+</svg>
