@@ -11,8 +11,8 @@ body {
 }
 
 span {
-  background: rgb(172, 170, 170) !important;
-  opacity: .4;
+  background: rgb(0, 0, 0) !important;
+  opacity: 1;
   display: none;
 }
 
