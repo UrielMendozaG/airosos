@@ -1,6 +1,8 @@
 # Airosos
-(En construcción)
+Esta es la alternativa a las paginas feas del gobierno, sientete libre de aportar el proyecto. :)
 
-Nota: El nombre clave del proyecto es AIROSOS. Estoy pensando en algo asi como una nube para el logo. 
+## Screenshot
 
-Adios :P 
+![](./ss.png)
+
+Nota: este no es el proyecto final! es un prototipo.
