@@ -24,6 +24,10 @@ span {
   left: 36%;
 }
 
+.elipse:hover{
+  cursor: pointer;
+}
+
 .elipse2 {
   position: absolute;
   width: 13%;
