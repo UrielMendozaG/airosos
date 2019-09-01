@@ -1,16 +1,43 @@
 //animation properties
 
-var elipse = document.getElementsByClassName("elipse");
+const elipse = document.querySelectorAll(".elipse");
 
 var opacity,
   scale,
   repeat = 0;
 
-opacity = 0.1;
+opacity = 0;
 scale = 1.2;
 repeat = -1;
 
-TweenMax.to(elipse, 1.2, { opacity: opacity, scale: scale, repeat: repeat });
+TweenMax.to(elipse, 1, { opacity: opacity, scale: scale, repeat: repeat });
+
+//on click event
+
+elipse.forEach((elipse) => {
+  elipse.addEventListener('click', () => {
+    alert("locowey");
+  })
+})
+
+//on hover
+elipse.forEach((elipse) => {
+  elipse.addEventListener('mouseover', () => {
+    let opacity_ = 1;
+    let repeat_ = 0;
+    let scale_ = 1;
+    TweenMax.to(elipse, 1, { opacity: opacity_, scale: scale_, repeat: repeat_ });
+  })
+})
+
+//click out
+elipse.forEach((elipse) => {
+  elipse.addEventListener('mouseout', () => {
+    TweenMax.to(elipse, 1, { opacity: opacity, scale: scale, repeat: repeat });
+  })
+})
+
+
 
 //scroll properties
 
