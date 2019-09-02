@@ -26,7 +26,7 @@ elipse.forEach((elipse) => {
     let opacity_ = 1;
     let repeat_ = 0;
     let scale_ = 1;
-    TweenMax.to(elipse, 1, { opacity: opacity_, scale: scale_, repeat: repeat_ });
+    TweenMax.to(elipse, .1, { opacity: opacity_, scale: scale_, repeat: repeat_ });
   })
 })
 
